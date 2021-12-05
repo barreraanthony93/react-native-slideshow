@@ -1,5 +1,5 @@
 {
-  "name": "react-native-slideshow-improved",
+  "name": "react-native-slideshow-barrera",
   "version": "0.0.4",
   "description": "A quick and easy slideshow for react native based on react-native-slideshow without the bugs",
   "main": "Slideshow.js",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/R3D347HR4Y/react-native-slideshow.git"
+    "url": "git+https://github.com/barreraanthony93/react-native-slideshow.git"
   },
   "keywords": [
     "react",
     "native",
     "slideshow"
   ],
-  "author": "M. Asrof Bayhaqqi <masrofbayhaqqi@gmail.com>, Eugene Maning <eugene@prolanced.com>, Eliott Guillaumin <spam@savetheweb.eu>",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/R3D347HR4Y/react-native-slideshow/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/R3D347HR4Y/react-native-slideshow#readme"
+  "homepage": ""
 }
