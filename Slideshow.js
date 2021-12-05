@@ -187,6 +187,10 @@ export default class Slideshow extends Component {
       <View style={[this.props.containerStyle, { height: height }]}>
         {/* SECTION IMAGE */}
         <ScrollView
+          contentContainerStyle={{
+            justifyContent:'center',
+            alignItems:'center'
+          }}
           ref={(ref) => this._onRef(ref)}
           decelerationRate={0.99}
           horizontal={true}
@@ -209,7 +213,7 @@ export default class Slideshow extends Component {
               </View>
             );
             const imageComponent = (
-              <View key={index} style={{ backgroundColor: "#FFF" }}>
+              <View key={index} style={{ backgroundColor: "#FFF", left: -45, justifyContent:'center', alignContent:'center' }}>
                 <Image
                   source={imageObject}
                   resizeMode="contain"
