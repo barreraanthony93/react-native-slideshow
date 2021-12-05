@@ -282,10 +282,10 @@ export default class Slideshow extends Component {
         <View
           style={[
             layoutArrow(this.props.height, this.props.arrowSize),
-            { left: 10 },
+            { left: 10},
           ]}
         >
-          <TouchableOpacity onPress={() => this._prev()}>
+          <TouchableOpacity style={this.props.arrowsStyle} onPress={() => this._prev()}>
             {this.props.arrowRight == undefined ? (
               <View
                 style={[
@@ -306,7 +306,7 @@ export default class Slideshow extends Component {
             { right: 10 },
           ]}
         >
-          <TouchableOpacity onPress={() => this._next()}>
+          <TouchableOpacity style={this.props.arrowsStyle} onPress={() => this._next()}>
             {this.props.arrowRight == undefined ? (
               <View
                 style={[
@@ -350,6 +350,7 @@ Slideshow.propTypes = {
   scrollEnabled: PropTypes.bool,
   containerStyle: PropTypes.object,
   overlay: PropTypes.bool,
+  arrowsStyle: PropTypes.object,
   arrowSize: PropTypes.number,
   arrowLeft: PropTypes.object,
   arrowRight: PropTypes.object,
